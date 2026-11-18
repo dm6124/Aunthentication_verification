@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Login</title>
+
+    <link rel="icon" href="login.jfif">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="login_container">
+
+        <div id="Login">
+
+            <h3 id="login1">User Login</h3>
+
+            <img id="laptop_guy" src="laptop.jfif" alt="laptop_guy">
+
+            <input id="login_button" type="email" placeholder="✉️ Email Id or Username">
+
+            <input id="password_button" type="password" placeholder="🔒 Password">
+
+            <div id="password">
+                
+                <input id="show_password" type="checkbox" onclick="show_password()">
+
+                <label for="show_password" id="inside_show_password">Show Password</label>
+
+            </div>  
+
+            <button id="submit_button" onclick="logIn()">Login</button>
+
+            <p id="displayMessage"></p>
+        </div>
+
+        <div id="missing_credentials">
+
+            <a id="forgot_credentials" href="forgot_username.html" target="auth_tab">Forgot credentials /</a>
+
+            <a id="sign_up" href="signup.html" target="auth_tab">Sign Up</a>
+
+        </div>
+    </div>
+</body>
+
+</html>

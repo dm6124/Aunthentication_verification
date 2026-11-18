@@ -1,0 +1,78 @@
+body {
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#sign {
+    display: flex;
+    justify-content: center;
+
+}
+
+#username,
+#email,
+#password,
+#confirm_password {
+    margin: 8px;
+    text-align: left;
+}
+
+#userbox,
+#user_email,
+#user_password,
+#user_cfrm_password {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 8px;
+
+}
+
+#signup_button {
+
+    margin-top: 15px;
+    border-radius: 9px;
+    width: 100px;
+    align-self: center;
+    box-sizing: border-box;
+    padding: 8px;
+    transition:transform 0.3s ease;
+}
+
+#signup_button:hover{
+    transform:scale(0.9);
+}
+
+#login{
+    text-decoration: none;
+    padding:2px;
+    align-self:center;
+    color:black;
+}
+
+#passwordMessage {
+    color: green;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}

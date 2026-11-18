@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sign up</title>
+    <link rel="icon" href="signup.jfif" alt="signup">
+    <link rel="stylesheet" href="signup.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form_container" onsubmit="signUp(event)">
+
+            <h2 id="sign">Sign Up</h2>
+
+            <h4 id="username">Username</h4>
+
+            <input id="userbox" type="text" required>
+
+            <h4 id="email">Email</h4>
+
+            <input id="user_email" type="email" required>
+
+            <h4 id="password">Password</h4>
+
+            <input id="user_password" type="password" required>
+
+            <h4 id="confirm_password">Confirm Password</h4>
+
+            <input id="user_cfrm_password" type="password" required>
+
+            <button id="signup_button" type="button" onclick="signUp()" >Sign Up</button>
+
+            <a id="login" href="index.html" target="auth_tab"> login </a>
+
+            <p id="passwordMessage"></p>
+        </form>
+    </div>
+
+</body>
+
+</html>
